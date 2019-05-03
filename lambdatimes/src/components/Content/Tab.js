@@ -8,10 +8,10 @@ const Tab = props => {
   return (
     <div
       className={`tab ${
-        props.selectedTab === props.tab ? "active-tab" : null
+        props.selectedTab === props.tab ? "active-tab" : 'null'
       } `}
       onClick={() => {
-        props.selectTabHandler(props.tab)
+        props.selectedTabHandler(props.tab)
         /* Replace this dummy click handler function with your selectTabHandler function from props 
          you'll need to pass the `tab` in as an argument to this handler. */
       }}
