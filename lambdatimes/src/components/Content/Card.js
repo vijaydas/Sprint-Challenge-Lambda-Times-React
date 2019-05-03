@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
 const Card = props => {
   return (
@@ -15,5 +16,19 @@ const Card = props => {
 };
 
 // Make sure to include PropTypes.
+
+Card.propTypes = {
+  headline: PropTypes.string,
+  tab: PropTypes.string,
+  img: PropTypes.string,
+  author: PropTypes.string
+};
+
+// {
+//   headline: "ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects",
+//   tab: "javascript",
+//   img: "./assets/sir.jpg",
+//   author: "SIR RUFF'N'STUFF"
+// }
 
 export default Card;
