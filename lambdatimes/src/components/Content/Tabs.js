@@ -19,7 +19,7 @@ const Tabs = props => {
 };
 
 // Make sure to use PropTypes to validate your types!
-Tabs.PropTypes = {
+Tabs.propTypes = {
   tabData: PropTypes.arrayOf(
     PropTypes.string
   )};

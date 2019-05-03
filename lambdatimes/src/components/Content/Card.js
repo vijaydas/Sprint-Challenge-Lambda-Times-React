@@ -13,7 +13,7 @@ const Card = props => {
       </div>
     </div>
   );
-};
+}
 
 // Make sure to include PropTypes.
 
